@@ -3,7 +3,8 @@ div {
 }
 
 body {
-    background-image: url(http://img09.deviantart.net/5fa9/i/2014/102/f/8/the_book_of_life_by_twostepsfromhell2-d7e5fpe.jpg);
+    background: url(http://img09.deviantart.net/5fa9/i/2014/102/f/8/the_book_of_life_by_twostepsfromhell2-d7e5fpe.jpg) no-repeat 50% 0%;
+
     background-size: cover;
 }
 
@@ -17,18 +18,18 @@ body {
 /*НАВИГАЦИЯ*/
 #nav{
     float:left;
-	width:100%;
+    clear: right;
 	list-style:none;
-    margin-top: 15px;
-	margin-bottom:10px;
-    margin-left: 100px;
+    /*margin-top: 15px;*/
+	/*margin-bottom:10px;*/
+    /*margin-left: 100px;*/
     border: none;
     }
 #nav li{
-	float:left;
-	margin-right:10px;
-	position:relative;
-	display:block;
+    float:left;
+    margin-right:10px;
+    position:relative;
+    display:block;
     z-index: 1;
 }
 #nav li a{
@@ -88,48 +89,6 @@ body {
 	-moz-transform:scale(1.05);
 	-webkit-transform:scale(1.05);
 }
-
-.hovergallery {
-    width: 80%;
-    display: block;
-    margin-left: 120px;
-}
-
-.hovergallery img {
-  -webkit-transform: scale(0.8);
-  /*Webkit: уменьшаем размер до 0.8*/
-  -moz-transform: scale(0.8);
-  /*Mozilla: масштабирование*/
-  -o-transform: scale(0.8);
-  /*Opera: масштабирование*/
-  -webkit-transition-duration: 0.5s;
-  /*Webkit: длительность анимации*/
-  -moz-transition-duration: 0.5s;
-  /*Mozilla: длительность анимации*/
-  -o-transition-duration: 0.5s;
-  /*Opera: длительность анимации*/
-  opacity: 0.7;
-  /*Начальная прозрачность изображений*/
-  margin: 0 10px 5px 0;
-  /*Интервалы между изображениями*/
-}
-
-.hovergallery img:hover {
-  -webkit-transform: scale(1.1);
-  /*Webkit: увеличиваем размер до 1.2x*/
-  -moz-transform: scale(1.1);
-  /*Mozilla: масштабирование*/
-  -o-transform: scale(1.1);
-  /*Opera: масштабирование*/
-  box-shadow: 0px 0px 30px gray;
-  /*CSS3 тени: 30px размытая тень вокруг всего изображения*/
-  -webkit-box-shadow: 0px 0px 30px gray;
-  /*Webkit: тени*/
-  -moz-box-shadow: 0px 0px 30px gray;
-  /*Mozilla: тени*/
-  opacity: 1;
-}
-
 .left {
     float: left;
     height: 390px;
@@ -162,7 +121,7 @@ body {
     text-align: center;
     color:	#00CED1;
     font-size: 35px;
-    margin: 10px;
+    /*margin: 10px;*/
     font-family: Comic Sans MS, halkduster, cursive, fantasy;
 }
 
@@ -171,7 +130,7 @@ body {
     color: #00BFFF;
     font-size: 20px;
     font-family: cursive;
-    margin: -12px;
+    /*margin: -12px;*/
 }
 
 #head3 {
@@ -189,4 +148,10 @@ body {
 img {
     height: 250px;
     border: 1px solid #778899;
+}
+
+.container{
+    width: 80%;
+    height: 200px;
+    margin:0 auto;
 }

@@ -1,13 +1,13 @@
 ﻿<!DOCTYPE html>
 <html>
 <head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
-  <link type="text/css" rel="stylesheet" href="style.css"/>
-	<link rel="stylesheet" type="text/css" href="buttons.css">
-   <link rel="stylesheet" type="text/css" href="style1.css" />
-  <script type="text/javascript" src="modernizr.custom.53451.js"></script>
-<title>Книжный магазин "Книготопия"</title>
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+      <link type="text/css" rel="stylesheet" href="style.css"/>
+      <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+      <!--<link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>-->
+      <title>Книжный магазин "Книготопия"</title>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
 
 </head>
 <body>
@@ -15,8 +15,8 @@
     <h2 id="head">~К н и г о т о п и я~</h2>
     <p id="head2">книги на любой вкус</p>
   </div>
-  
-  <div id="nav">
+
+  <ul id="nav">
         <li>
           <a href="#">Художественная литература</a>
             <ul>
@@ -52,56 +52,30 @@
         <li>
           <a href="#">Контакты</a>
         </li>
-  </div>
-  
+  </ul>
+
   <div id="head3">
     <h3>Новые поступления:</h3>
-    
+  </div>
     <br><br><br>
+        <!-- Container with images  -->
         <div class="container">
-          
-  <!-- Контейнер для слайдера  -->
-<section id="dg-container" class="dg-container">
-<!-- Контейнер с изображениями  -->
-  <div class="dg-wrapper">
-   <a href="#"><img src="https://images.ua.prom.st/593919894_w200_h200_cid1856741_pid419303012-364f9fd9.jpg" alt="image01"></a>
-   <a href="#"><img src="https://images.ua.prom.st/743788424_w800_h640_riggz.jpg" alt="image02"></a>
-   <a href="#"><img src="https://images.ua.prom.st/745421717_w800_h640_belyaev.jpg" alt="image03"></a>
-   <a href="#"><img src="https://images.ua.prom.st/743799225_w800_h640_mechta.jpg" alt="image04"></a>
-   <a href="#"><img src="https://images.ua.prom.st/725504871_w800_h640_magi.jpg" alt="image05"></a>
-   <a href="#"><img src="https://images.ua.prom.st/683340565_w200_h200_forman2.jpg" alt="image06"></a>
-   <a href="#"><img src="https://images.ua.prom.st/725597912_w200_h200_koh.jpg" alt="image07"></a>
-   <a href="#"><img src="https://images.ua.prom.st/684446857_w200_h200_rechi.jpg" alt="image08"></a>
-   <a href="#"><img src="https://images.ua.prom.st/667763672_w200_h200_metro_vse.jpg" alt="image09"></a>
-   <a href="#"><img src="https://images.ua.prom.st/621069682_w200_h200_akunin.jpg" alt="image10"></a>
-   <a href="#"><img src="https://images.ua.prom.st/621077153_w200_h200_gp8.jpg" alt="image11"></a>
-   <a href="#"><img src="https://images.ua.prom.st/634882396_w200_h200_gotovim2.jpg" alt="image12"></a>
-  </div>
-<!-- Навигация для слайдера  -->
-   <nav>	
-	<span class="dg-prev">&lt;</span>
-	<span class="dg-next">&gt;</span>
-   </nav>
- </section>
- </div>
+              <div class="showCase">
+               <div><a href="#"><img src="https://images.ua.prom.st/593919894_w200_h200_cid1856741_pid419303012-364f9fd9.jpg" alt="image01"></a></div>
+               <div><a href="#"><img src="https://images.ua.prom.st/743788424_w800_h640_riggz.jpg" alt="image02"></a></div>
+               <div><a href="#"><img src="https://images.ua.prom.st/745421717_w800_h640_belyaev.jpg" alt="image03"></a></div>
+               <div><a href="#"><img src="https://images.ua.prom.st/743799225_w800_h640_mechta.jpg" alt="image04"></a></div>
+               <div><a href="#"><img src="https://images.ua.prom.st/725504871_w800_h640_magi.jpg" alt="image05"></a></div>
+               <div><a href="#"><img src="https://images.ua.prom.st/683340565_w200_h200_forman2.jpg" alt="image06"></a></div>
+               <div><a href="#"><img src="https://images.ua.prom.st/725597912_w200_h200_koh.jpg" alt="image07"></a></div>
+               <div><a href="#"><img src="https://images.ua.prom.st/684446857_w200_h200_rechi.jpg" alt="image08"></a></div>
+               <div><a href="#"><img src="https://images.ua.prom.st/667763672_w200_h200_metro_vse.jpg" alt="image09"></a></div>
+               <div><a href="#"><img src="https://images.ua.prom.st/621069682_w200_h200_akunin.jpg" alt="image10"></a></div>
+               <div><a href="#"><img src="https://images.ua.prom.st/621077153_w200_h200_gp8.jpg" alt="image11"></a></div>
+               <div><a href="#"><img src="https://images.ua.prom.st/634882396_w200_h200_gotovim2.jpg" alt="image12"></a></div>
+              </div>
+        </div>
 
-    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
-		<script type="text/javascript" src="jquery.gallery.js"></script>
-		<script type="text/javascript">
-			$(function() {
-				$('#dg-container').gallery();
-			});
-		</script>
-   
-   
-  <!--<div class="hovergallery">
-    <img src=https://images.ua.prom.st/745431546_w200_h200_zhzl.jpg />
-    <a href=http://knigotopia.in.ua/p513231710-dom-strannyh-detej.html><img src="https://images.ua.prom.st/743788424_w200_h200_riggz.jpg" /></a>
-    <img src="https://images.ua.prom.st/745421717_w200_h200_belyaev.jpg" /><img src="https://images.ua.prom.st/725493649_w200_h200_gp_volsh.jpg" />
-    <img src="https://images.ua.prom.st/743799225_w200_h200_mechta.jpg" />
-    <img src="https://images.ua.prom.st/725504871_w200_h200_magi.jpg" />
-  </div>
-  -->
 
   <!--<div class="left">
     <p>Бестселлеры</p>
@@ -127,6 +101,40 @@
     <a href="mailto: sorok@ukr.net">sorok@ukr.net</a>
   </address>
   </div>-->
+
+
+
+  <script type="text/javascript" src="slick/slick.min.js"></script>
+
+  <script type="text/javascript">
+      $(document).ready(function(){
+          $('.showCase').slick({
+              centerMode: true,
+              centerPadding: '20px',
+              slidesToShow: 3,
+              responsive: [
+                  {
+                      breakpoint: 768,
+                      settings: {
+                          arrows: false,
+                          centerMode: true,
+                          centerPadding: '10px',
+                          slidesToShow: 3
+                      }
+                  },
+                  {
+                      breakpoint: 480,
+                      settings: {
+                          arrows: false,
+                          centerMode: true,
+                          centerPadding: '10px',
+                          slidesToShow: 1
+                      }
+                  }
+              ]
+          });
+      });
+  </script>
 </body>
 </html>
 
