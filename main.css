@@ -1,0 +1,87 @@
+div {
+    font-family: fantasy;
+}
+
+body {
+    background: url(http://img09.deviantart.net/5fa9/i/2014/102/f/8/the_book_of_life_by_twostepsfromhell2-d7e5fpe.jpg);
+    background-size: cover;
+}
+
+.header {
+    clear
+    text-align: center;
+    margin: 0 auto;
+    height: 80px;
+    width: 100%;
+}
+
+}
+.left {
+    float: left;
+    height: 390px;
+    width: 170px;
+    font-family: cursive;
+    padding-left: 10px;
+    font-size: 18px;
+}
+
+.right {
+    float: right;
+    height: 390px;
+    width: 90px;
+    background-color: blue;
+    color: 	#DAA520;
+    font-family: cursive;
+    padding: 10px;
+}
+
+#footer {
+    clear: both;
+    height: 50px;
+    width: 100%;
+    background-color: green;
+    padding-top: 8px;
+    text-align: center;
+}
+
+#head {
+    text-align: center;
+    margin: 0 auto;
+    color:	#00CED1;
+    font-size: 35px;
+    /*margin: 10px;*/
+    font-family: Comic Sans MS, halkduster, cursive, fantasy;
+}
+
+#head2 {
+    text-align: center;
+    margin: 0 auto;
+    color: #00BFFF;
+    font-size: 20px;
+    font-family: cursive;
+    /*margin: -12px;*/
+}
+
+#head3 {
+    color: green;
+    text-align: center;
+    font-family: cursive;
+    text-transform: uppercase;
+    /*background: linear-gradient(45deg, #4169E1 40%, #AFEEEE 59%, #AFEEEE);*/
+    /*-webkit-background-clip: text;*/
+    /*-webkit-text-fill-color: transparent;*/
+    /*display: table;*/
+    margin: 0 auto;
+    padding: 60px;
+}
+
+img {
+    height: 250px;
+    border: 1px solid #778899;
+}
+
+.container{
+    width: 80%;
+    height: 100px;
+    margin: -100px auto;
+}
