@@ -4,10 +4,8 @@
     align-items: center;
     justify-content: center;
     margin: 15px auto;   
-    float:left;
-    width: 100%;
 	list-style:none;
-	margin-bottom:10px;
+	/*margin-bottom:40px;*/
     border: none;
     }
 #nav li{

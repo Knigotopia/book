@@ -25,7 +25,7 @@
     display: block;
     overflow: hidden;
 
-    margin: 0;
+    margin: 50px;
     padding: 0;
 }
 .slick-list:focus
@@ -99,6 +99,7 @@
 .slick-initialized .slick-slide
 {
     display: block;
+    margin: 0 auto;
 }
 .slick-loading .slick-slide
 {

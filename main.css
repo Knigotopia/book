@@ -3,6 +3,7 @@ div {
 }
 
 body {
+    margin: 0;
     background: url(http://img09.deviantart.net/5fa9/i/2014/102/f/8/the_book_of_life_by_twostepsfromhell2-d7e5fpe.jpg);
     background-size: cover;
 }
@@ -31,7 +32,7 @@ body {
     width: 90px;
     background-color: blue;
     color: 	#DAA520;
-    font-family: cursive;
+    font-family: Сomic Sans MS, cursive;
     padding: 10px;
 }
 
@@ -50,7 +51,7 @@ body {
     color:	#00CED1;
     font-size: 35px;
     /*margin: 10px;*/
-    font-family: Comic Sans MS, halkduster, cursive, fantasy;
+    font-family: 'Neucha', cursive;
 }
 
 #head2 {
@@ -67,12 +68,8 @@ body {
     text-align: center;
     font-family: cursive;
     text-transform: uppercase;
-    /*background: linear-gradient(45deg, #4169E1 40%, #AFEEEE 59%, #AFEEEE);*/
-    /*-webkit-background-clip: text;*/
-    /*-webkit-text-fill-color: transparent;*/
-    /*display: table;*/
-    margin: 0 auto;
-    padding: 60px;
+    margin: -10px auto;
+    padding: 10px;
 }
 
 img {
@@ -83,5 +80,30 @@ img {
 .container{
     width: 80%;
     height: 100px;
-    margin: -100px auto;
+    margin: 0 auto;
+}
+
+#search {
+    text-align: center;
+}
+
+.news {
+    width: 80%;
+    height: 130px;
+    margin: 200px auto;
+    border:  green solid;
+}
+
+#news2 {
+    width: 80%;
+    height: 130px;
+    margin: 180px auto;
+    border:  green solid;
+}
+
+#news3 {
+    width: 80%;
+    height: 150px;
+    margin: 0 auto;
+    border:  green solid;
 }
