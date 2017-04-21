@@ -73,6 +73,14 @@ body {
 }
 
 img {
+    height: 200px;
+    margin: 10px;
+    border: 1px solid #778899;
+}
+
+.hover {
+    position: relative;
+    z-index: 50;
     height: 250px;
     border: 1px solid #778899;
 }
