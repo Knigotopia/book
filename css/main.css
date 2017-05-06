@@ -1,25 +1,13 @@
-div {
-    font-family: fantasy;
-}
-
 body {
     margin: 0;
     background: url(http://img09.deviantart.net/5fa9/i/2014/102/f/8/the_book_of_life_by_twostepsfromhell2-d7e5fpe.jpg);
     background-size: cover;
 }
 
-.header {
-    clear
-    text-align: center;
-    margin: 0 auto;
-    height: 80px;
-    width: 100%;
-}
-
 #head {
     text-align: center;
     margin: 0 auto;
-    color:	#00CED1;
+    color: #00CED1;
     font-size: 35px;
     /*margin: 10px;*/
     font-family: 'Neucha', cursive;
@@ -34,35 +22,6 @@ body {
     /*margin: -12px;*/
 }
 
-}
-.left {
-    float: left;
-    height: 390px;
-    width: 170px;
-    font-family: cursive;
-    padding-left: 10px;
-    font-size: 18px;
-}
-
-.right {
-    float: right;
-    height: 390px;
-    width: 90px;
-    background-color: blue;
-    color: 	#DAA520;
-    font-family: Сomic Sans MS, cursive;
-    padding: 10px;
-}
-
-#footer {
-    clear: both;
-    height: 50px;
-    width: 100%;
-    background-color: green;
-    padding-top: 8px;
-    text-align: center;
-}
-
 #head3 {
     color: #00CED1;
     text-align: center;
@@ -72,9 +31,14 @@ body {
     padding: 10px;
 }
 
+.container {
+    width: 60%;
+    margin: 0 auto;
+}
+
 img {
     height: 200px;
-    margin: 10px;
+    margin: 10px auto;
     border: 1px solid #778899;
 }
 
@@ -85,9 +49,8 @@ img {
     border: 1px solid #778899;
 }
 
-.container{
-    width: 80%;
-    height: 100px;
+.series {
+    width: 40%;
     margin: 0 auto;
 }
 

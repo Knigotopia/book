@@ -1,7 +1,7 @@
-    $('img').hover(function(){
-        $(this).addClass('hover');
+    $('.img').hover(function(){
+        $(this).height("250px");
     },
     function() {
-        $(this).removeClass('hover');
+        $(this).height('200px');
     }
 );

@@ -1,8 +1,9 @@
 $(document).ready(function(){
           $('.showCase').slick({
+              autoplay: true,
               centerMode: true,
               centerPadding: '0px',
-              slidesToShow: 4,
+              slidesToShow: 5,
               responsive: [
                   {
                       breakpoint: 768,
@@ -10,7 +11,7 @@ $(document).ready(function(){
                           arrows: true,
                           centerMode: true,
                           centerPadding: '0px',
-                          slidesToShow: 3
+                          slidesToShow: 4,
                       }
                   },
                   {
